@@ -2,8 +2,20 @@
 body{
     background: lightgrey !important
 };
-.topright {
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
+
+ul.Horizontal {
+    margin-left: 0px;
+    padding-left: 0px;
   }
+ul.Horizontal li {
+    display: inline
+  }
+ul.Horizontal li:before {
+	content: '\00a0\2022\00a0\00a0';
+	color:black;
+	color:black;
+	font-size:11px;
+}
+ul.Horizontal li:first-child:before {
+	content: '';
+}
