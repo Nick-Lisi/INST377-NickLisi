@@ -2,6 +2,3 @@
 body{
     background: lightgrey !important
 };
-.rotateimg90 {
-    transform: rotate(90deg);
-  }
