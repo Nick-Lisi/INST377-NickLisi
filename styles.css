@@ -3,7 +3,7 @@ body{
     background: lightgrey !important
 };
 .topright {
-    position: absolute;
+    position: relative;
     top: 8px;
-    right: 200px;
+    right: 20px;
   }
