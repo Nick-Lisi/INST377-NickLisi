@@ -1,9 +1,16 @@
+/*
+Sorry about the class names I know I am not organized with them 
+*/
 
 body{
     background: lightgrey;
     color: azure;
 };
 
+/*
+Horizontal Class source below
+https://www.kevinleary.net/horizontal-bulleted-lists-css/
+*/
 ul.Horizontal {
     margin-left: 0px;
     padding-left: 0px;
@@ -21,6 +28,10 @@ ul.Horizontal li:first-child:before {
 	content: '';
 }
 
+/* 
+line-height source below 
+https://stackoverflow.com/questions/35887441/extra-space-before-and-after-h1-tag 
+*/
 h2{
     line-height:0.7em;
     margin-top: 40px;
@@ -56,6 +67,11 @@ h2{
     height:170px;
 }
 
+/*
+Flexbox source below
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+
 .container{
     display: flex; 
     flex-flow: row;
@@ -70,6 +86,8 @@ h2{
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    color: azure;
+    font-size: 16px;
 }
 
 .center{
@@ -103,7 +121,7 @@ h2{
     height:150px;
     margin-right: 30px;
     background: azure;
-    margin-left: 10px;
+    margin-left: px;
 }
 
 .python{
@@ -117,7 +135,7 @@ h2{
 .ricoh{
     width:150px; 
     height:150px;
-    margin-right: 50px;
+    margin-right: 30px;
     background: azure;
     margin-left: 10px;
 }
