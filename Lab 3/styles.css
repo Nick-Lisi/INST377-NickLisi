@@ -1,0 +1,94 @@
+
+
+/*
+div {
+  color: black;
+  width: 100%;
+  height: 42px;
+}
+*/
+.six {
+  background: gray;
+  width: 60%;
+  margin-left: 20%;
+  padding-bottom: 100%;
+}
+
+body {
+  background: white;
+};
+
+.newsline {
+  font-size: 42px;
+  font-style: bold;
+  font-weight: 400;
+}
+
+.center{
+    text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  background: grey;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 140%;
+}
+
+.head a,
+.head {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.second_container {
+  background: pink;
+  height: 150px;
+}
+
+.interior {
+  text-align: center;
+  padding-top: 60px;
+}
+
+
+.container{
+    background: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.container > div{
+  padding: 20px;
+  margin: 10px;
+  height: 50px;
+  width: 200px;
+  background: red;
+  border-top: 5px solid gray ;
+  border-bottom: 20px solid gray;
+}
+
+.textbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+    height: 100px;
+    width: center;
+    border-left: 160px solid gray;
+    border-right: 160px solid gray;
+  }
+
+
+
